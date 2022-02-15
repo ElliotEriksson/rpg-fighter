@@ -12,6 +12,7 @@ class Character:
     def __str__(self) -> str:
         return f"Name: {self.name}\nHealth: {self.health}\nAttack: {self.attack}\nArmor: {self.armor}"
 
+        
 class Goblin:
 
     def __init__(self, health, attack, armor):
@@ -21,3 +22,4 @@ class Goblin:
 
     def __str__(self) -> str:
         return f"Goblin\nHealth: {self.health}\nAttack: {self.attack}\nArmor: {self.armor}"
+
